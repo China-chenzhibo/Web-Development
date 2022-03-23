@@ -8,8 +8,8 @@
 - 安装前要先清之前node版本,如果遇到[nvm访问不到raw.githubusercontent](https://www.cnblogs.com/Walker-lyl/p/14251301.html) 
 - 给hosts增加识别IP ,raw.githubusercontent的IP经常换,所以要[查询IP](https://zhuanlan.zhihu.com/p/107334179)
 - 其中nvm的下载最好是用当前用户（非root用户）各管各的 否则后续很麻烦 需要[修改nvm和npm路径](https://blog.csdn.net/qq_36231887/article/details/100703861)./bashrc
-- 给nvm切换[淘宝镜像] 并且npm用cnpm（不一定要用cnpm）代替(https://blog.csdn.net/qq_14815199/article/details/1046101630)
-- 给npm切换[淘宝镜像](https://zhuanlan.zhihu.com/p/339812994)    
+- [给nvm切换淘宝镜像](https://blog.csdn.net/qq_14815199/article/details/1046101630) 并且npm用cnpm代替（不一定要必须要用cnpm）
+- [给npm切换淘宝镜像](https://zhuanlan.zhihu.com/p/339812994)  
 `npm config set registry https://registry.npm.taobao.org`
 - 下载vscode插件vetur 为了高亮vue的代码
 
